@@ -4,14 +4,14 @@
 
 Add the following in your `.pre-commit-config.yaml`:
 ```yaml
-- repo: https://github.com/Cretezy/flutter-format-pre-commit
+- repo: https://github.com/matheusfillipe/flutter-format-pre-commit
   rev: "master"
   hooks:
     - id: flutter-format
 ```
 By default, the flutter format command uses a [line length of 80](https://github.com/dart-lang/dart_style/issues/833). You can customize what line length is used by passing the `--line-length` argument to the hook:
 ```yaml
-- repo: https://github.com/Cretezy/flutter-format-pre-commit
+- repo: https://github.com/matheusfillipe/flutter-format-pre-commit
   rev: "master"
   hooks:
     - id: flutter-format
@@ -21,7 +21,7 @@ By default, the flutter format command uses a [line length of 80](https://github
 You can also only include/exclude some files (defaults to only `.dart`, is a pattern):
 
 ```yaml
-- repo: https://github.com/Cretezy/flutter-format-pre-commit
+- repo: https://github.com/matheusfillipe/flutter-format-pre-commit
   rev: "master"
   hooks:
     - id: flutter-format
